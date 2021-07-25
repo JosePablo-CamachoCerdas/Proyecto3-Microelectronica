@@ -1,0 +1,23 @@
+
+Qflow static timing analysis logfile appended on Wed Jul 21 16:26:16 CST 2021
+Converting qrouter output to vesta delay format
+Running rc2dly -r systemcomplete.rc -l /usr/share/qflow/tech/osu018/osu018_stdcells.lib -d systemcomplete.dly
+Converting qrouter output to SPEF delay format
+Running rc2dly -D : -r systemcomplete.rc -l /usr/share/qflow/tech/osu018/osu018_stdcells.lib -d systemcomplete.spef
+Converting qrouter output to SDF delay format
+Running rc2dly -r systemcomplete.rc -l /usr/share/qflow/tech/osu018/osu018_stdcells.lib -d systemcomplete.sdf
+Running vesta static timing analysis with back-annotated extracted wire delays
+vesta -c -d systemcomplete.dly --long systemcomplete.rtlnopwr.v /usr/share/qflow/tech/osu018/osu018_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.3.17
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu018_stdcells"
+End of library at line 6141
+Parsing module "systemcomplete"
+Lib read /usr/share/qflow/tech/osu018/osu018_stdcells.lib:  Processed 6142 lines.
+ERROR: Net comparador_next only had 6 receivers in delay file,  but expected a fanout of 4
+ERROR: Net micro_hash_ucr_3_Wx_134_! not found in hash table
+Verilog netlist read:  Processed 61788 lines.

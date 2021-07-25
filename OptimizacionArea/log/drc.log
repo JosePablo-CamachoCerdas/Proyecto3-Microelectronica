@@ -1,0 +1,40 @@
+Qflow DRC logfile created on Wed Jul 21 14:42:58 CST 2021
+magic -dnull -noconsole  /mnt/d/Universidad/UCR/I-2021/Microelectronica/Proyecto3/Codigo_Proyecto3/OptimizacionArea/layout/run_drc_systemcomplete.tcl
+
+Magic 8.2 revision 157 - Compiled on Thu, 07 Nov 2019 21:14:45 +0100.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.10(p): scaleFactor=10, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Loading "/mnt/d/Universidad/UCR/I-2021/Microelectronica/Proyecto3/Codigo_Proyecto3/OptimizacionArea/layout/run_drc_systemcomplete.tcl" from command line.
+Reading LEF data from file /usr/share/qflow/tech/osu018/osu018_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read, Line 309 (Message): Defines site core (ignored)
+Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
+Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
+Moving label "A" from metal1 to m2contact in cell XNOR2X1.
+LEF read: Processed 2941 lines.
+systemcomplete: 10000 rects
+systemcomplete: 20000 rects
+systemcomplete: 30000 rects
+systemcomplete: 40000 rects
+systemcomplete: 50000 rects
+systemcomplete: 60000 rects
+systemcomplete: 70000 rects
+systemcomplete: 80000 rects
+systemcomplete: 90000 rects
+systemcomplete: 100000 rects
+Processing timestamp mismatches: FILL, OAI21X1, DFFPOSX1, NOR2X1, BUFX4, CLKBUF1, AOI21X1, NAND2X1, INVX8, AND2X2, XNOR2X1, INVX1, INVX2, XOR2X1, NAND3X1, MUX2X1, OR2X2, OAI22X1, INVX4, AOI22X1, NOR3X1, BUFX2.
+drc = 7
+DRC failure:  There are 7 DRC errors in the layout.
+Premature exit.
+Synthesis flow stopped due to error condition.
